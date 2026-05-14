@@ -301,6 +301,7 @@ function leerTexto() {
 
 // Se cambiara para que el lector no lea esto
     contenido = contenido
+    .replace(/HOSTFISH/g, " Hostfish ")
     .replace(/Leer contenido/g, " ")
     .replace(/Pausar/g, " ")
     .replace(/🐟/g, "  ")
